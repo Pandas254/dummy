@@ -26,3 +26,14 @@ Return: A list of n random integers between lower_bound and upper_bound (inclusi
 Example:
 random_numbers = generate_random_numbers(10, 1, 100) print(random_numbers) [55, 89, 42, 93, 68, 49, 95, 44, 6, 80]
  </p>
+ 
+ <h1> RomanNumber Conversion </h1>
+ 
+ <p> Function Name: roman_to_int
+Description: This function takes a Roman numeral string as input and converts it to an integer value.
+Parameters: roman_numeral - A string that represents the Roman numeral to be converted to an integer.
+Return: An integer value that represents the equivalent of the Roman numeral.
+Example:
+roman_numeral = 'XXIV' integer_value = roman_to_int(roman_numeral) print(integer_value) 24
+Notes: This function uses a dictionary to map each Roman numeral character to its corresponding integer value. It then iterates through each character in the input string and calculates the corresponding integer value by comparing the current value to the previous value. If the current value is greater than the previous value, it subtracts twice the previous value to handle cases like 'IV' or 'IX' correctly.
+</p>
