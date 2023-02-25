@@ -37,3 +37,13 @@ Example:
 roman_numeral = 'XXIV' integer_value = roman_to_int(roman_numeral) print(integer_value) 24
 Notes: This function uses a dictionary to map each Roman numeral character to its corresponding integer value. It then iterates through each character in the input string and calculates the corresponding integer value by comparing the current value to the previous value. If the current value is greater than the previous value, it subtracts twice the previous value to handle cases like 'IV' or 'IX' correctly.
 </p>
+
+<h1>SortingMethod Documentation</h1>
+<p>Function Name: selection_sort
+Description: This function takes an array as input and sorts it using the selection sort algorithm.
+Parameters: arr - A list or array that represents the unsorted input array.
+Return: A sorted list or array that represents the input array sorted in ascending order.
+Example:
+arr = [64, 25, 12, 22, 11] sorted_arr = selection_sort(arr) print(sorted_arr) [11, 12, 22, 25, 64]
+Notes: This function implements the selection sort algorithm, which works by dividing the input array into two parts: the sorted part at the beginning and the unsorted part at the end. In each iteration, the minimum element is found from the unsorted part and swapped with the first element in the unsorted part. This way, the sorted part grows by one element in each iteration, and the unsorted part shrinks by one element. The process continues until the entire array is sorted.
+</p>
