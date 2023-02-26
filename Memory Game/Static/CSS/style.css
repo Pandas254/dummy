@@ -1,0 +1,51 @@
+.body {
+   display: flex;
+   border: 1px solid black;
+   padding: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.allignment {
+   display: flex;
+   border: 1px solid black;
+   padding: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 600px;
+   width: 150 px;
+}
+.simba,
+.baboon {
+   object-fit: cover;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+   width: 150px;
+   height: 200px;
+   margin-right: 20px;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.image2,
+.baboon,
+.simba {
+   position: relative;
+   top: 0px;
+   left: 0px;
+}
+
+.image1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
